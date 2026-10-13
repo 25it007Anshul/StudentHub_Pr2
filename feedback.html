@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your suggestions can help make the StudentHub experience more useful.">
+  <meta name="theme-color" content="#f5f7fb">
+  <title>Feedback | StudentHub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-mark">S</span> StudentHub</a>
+    <nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="register.html">Register</a><a href="login.html">Login</a><a href="dashboard.html">Dashboard</a><a href="events.html">Events</a><a href="profile.html">Profile</a><a href="contact.html">Contact</a><a href="admin.html">Admin</a><a href="faq.html">FAQ</a><a href="feedback.html" class="active" aria-current="page">Feedback</a></nav>
+  </div>
+</header>
+<div class="breadcrumb"><a href="index.html">Home</a> <span aria-hidden="true">/</span> <span>Feedback</span></div>
+<main class="page page-narrow">
+  <p class="eyebrow">Help us improve</p>
+  <h1>Share your feedback</h1>
+  <p class="lead">Your suggestions can help make the StudentHub experience more useful.</p>
+  <section class="form-card">
+    <form data-demo-form>
+      <div><label for="feedback-name">Name</label><input id="feedback-name" name="name" type="text" placeholder="Your name" autocomplete="name" required></div>
+      <div><label for="feedback-email">Email address</label><input id="feedback-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required></div>
+      <div><label for="feedback-type">Feedback type</label><select id="feedback-type" name="type"><option>Suggestion</option><option>Bug report</option><option>General feedback</option></select></div>
+      <div><label for="feedback">Your feedback</label><textarea id="feedback" name="feedback" rows="6" placeholder="Tell us what you think..." required></textarea></div>
+      <button type="submit">Submit feedback&nbsp; →</button>
+      <p class="form-message" role="status" aria-live="polite">Thanks for your feedback. This is a frontend demo, so the message has not been sent to a server.</p>
+    </form>
+  </section>
+</main>
+<footer class="site-footer"><p>© <span data-year>2026</span> StudentHub · Your learning, in one place.</p></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
